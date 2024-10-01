@@ -1,0 +1,11 @@
+[package]
+name = "zip"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.15"  # Or the latest version
+flate2 = "1.0"   # For Gzip compression
+zip = "0.6"      # For zip functionality
+rfd = "0.11"     # For file dialogs
+
